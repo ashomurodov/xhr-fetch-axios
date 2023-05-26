@@ -1,0 +1,28 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  height: 80vh;
+  align-items: flex-start;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  font-size: 26px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  transition: 0.3s ease-in all;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
